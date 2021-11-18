@@ -1,7 +1,7 @@
 # Computer Code
 ## Vigenere Cipher 
 ### How it works:
-### * A key of 2 or more letter in the alphabet should be used
+### * A key of 2 or more letters in the alphabet should be used
 ### * To encrypt: Locate the first letter of the plaintext on the first column, then locate the first letter of the key on the first row. Where the two intersect beecomes a letter in the ciphertext. Keep doing this throughout the plaintext. If you run out of letters in the key start back at the beginning. Now you have your ciphertext.
 ### * There are 2 options for decryption:
 ### Subtraction method: Letters have the value of their position in the alphabet (it starts frm zero). Subtract the value of the first letter in the key from the first letter in thr ciphertext. This value will give you a letter. If you run out of letters in the key start back at the begining.
